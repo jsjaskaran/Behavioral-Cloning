@@ -83,7 +83,7 @@ So in the third iteration I added some ***dropout*** layers and that does the tr
 
 The final model architecture is a resemblance of nvidia model. It is as shown below:
 
-![final model][images/model.png]
+![final model](images/model.png)
 
 #### 3. Creation of the Training Set & Training Process
 
@@ -92,9 +92,9 @@ To capture good driving behavior, I first recorded three laps on track one using
 Along the way I also intentionally recorded some data where the vehicle recovers from left and right side of the road back to the center so that the vehicle would learn to always be centered while driving.
 I didn't train on track cause I wanted to test on that track even though that track looks more challenging but I added data augmentation in the images for first track by adding zoom, pan, brightness change, flipping augmentation techniques, this helps in generating more data.
 
-![zoom][images/zoomed_img.png]
-![pan][images/panned_img.png]
-![bright][images/brightness_altered_img.png]
-![flip][images/flipped_img.png]
+![zoom](images/zoomed_img.png)
+![pan](images/panned_img.png)
+![bright](images/brightness_altered_img.png)
+![flip](images/flipped_img.png)
 
 I also added randomness to the dataset so that the training process is more general.
